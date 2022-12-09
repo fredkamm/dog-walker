@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import Navbar from "./navbar";
+import NavMobile from "./navmobile.jsx";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -26,10 +27,10 @@ const Header = () => {
         <div className="hidden md:block">
           <Navbar />
         </div>
-        {/* nav mobile*/}
-        {/* <div className='lg:hidden'>
+        {/* nav mobile */}
+        <div className="lg:hidden">
           <NavMobile />
-        </div> */}
+        </div>
       </div>
     </header>
   );
