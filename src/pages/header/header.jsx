@@ -21,9 +21,9 @@ const Header = () => {
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
-        {/* <a href='home'>
-          <img className='h-[250px]' src={Logo} alt='' />
-        </a> */}
+        <a href='home'>
+          <h3 className="bg-secondary p-3 ml-5">Call us now (555)555-5555</h3>
+        </a>
         {/* nav */}
         <div className="hidden md:block">
           <Navbar />
