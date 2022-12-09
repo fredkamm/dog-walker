@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 import Navbar from "./navbar";
-import NavMobile from "./navmobile.jsx";
+import NavMobile from "./navmobile";
+// import Logo from "../../assets/images/walkingLogo.png"
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
-        {/* <a href=''>
+        {/* <a href='home'>
           <img className='h-[250px]' src={Logo} alt='' />
         </a> */}
         {/* nav */}
