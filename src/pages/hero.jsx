@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className='bg-[url("https://www.purina.co.uk/sites/default/files/2021-01/Article%20Hero%20puppy%20walk.jpg")] bg-cover bg-center h-96 w-full py-9'
+      className='bg-[url("https://www.purina.co.uk/sites/default/files/2021-01/Article%20Hero%20puppy%20walk.jpg")] bg-cover bg-center h-96 w-full p-9'
     >
-      <div>hello</div>
+      <div className="inline bg-blue-50">hello</div>
       <div>Do you feel guility leaving your dog alone all day?</div>
       <Link to="contact" smooth={true} duration={800}>
         <button className="btn group btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all">

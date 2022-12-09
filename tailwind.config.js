@@ -18,9 +18,7 @@ module.exports = {
         xl: '1280px',
       },
       extend: {
-        content: {
-          about: 'url("/src/assets/images/coverImage.jpeg")',
-        },
+        content: {},
         colors: {
           primary: '#050402',
           secondary: '#1C1D24',
