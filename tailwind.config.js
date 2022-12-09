@@ -20,14 +20,14 @@ module.exports = {
       extend: {
         content: {},
         colors: {
-          primary: '#050402',
-          secondary: '#1C1D24',
+          primary: '#FCF6F5FF',
+          secondary: '#f6f6ff',
           tertiary: '#131419',
           accent: {
-            DEFAULT: '#4d95a8',
-            hover: '#2d545e',
+            DEFAULT: '#990011FF',
+            hover: '#CC313D',
           },
-          paragraph: '#949fb0',
+          paragraph: '#181819',
         },
       },
     },
