@@ -10,7 +10,7 @@ const Hero = () => {
     >
       <div className="inline-flex bg-primary p-5 mt-24 mb-2">
         <h2 className="sm:text-xsm md:text-base lg:text-2xl uppercase text-center">
-        Do you feel guility leaving <br /> your dog alone all day?
+        Do you feel guilty leaving <br /> your dog alone all day?
         </h2>
       </div>
       <Link to="contact" smooth={true} duration={800}>

@@ -15,10 +15,7 @@ const Footer = () => {
               );
             })}
           </div> */}
-          {/* <div>
-            <img className='h-[170px] lg:h-[300px]' src={Logo} alt='' />
-          </div> */}
-          <p className='text-paragraph opacity-80 text-[15px]'>
+          <p className='text-primary opacity-80 text-[15px]'>
             &copy; 2022 Fred Kamm. All rights reserved.
           </p>
         </div>

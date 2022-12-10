@@ -47,7 +47,7 @@ const NavMobile = () => {
     <nav className='relative'>
       <div
         onClick={() => setIsOpen(true)}
-        className='cursor-pointer text-tertiary'
+        className='cursor-pointer text-primary'
       >
         <MenuAlt3Icon className='w-8 h-8' />
       </div>

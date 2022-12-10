@@ -23,6 +23,7 @@ module.exports = {
           primary: '#FCF6F5FF',
           secondary: '#FCF6F5',
           tertiary: '#131419',
+          grey:'#262626',
           accent: {
             DEFAULT: '#990011FF',
             hover: '#CC313D',
