@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
     <nav>
       <ul className="flex space-x-8 capitalize text-[15px]">
-        {navigation.map((item, idx) => {
+        {navigation.map((item, index) => {
           return (
             <li
               className="text-white hover:text-accent cursor-pointer"
-              key={idx}
+              key={index}
             >
               <Link
                 to={item.href}

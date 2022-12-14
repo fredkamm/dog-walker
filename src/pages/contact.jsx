@@ -8,13 +8,9 @@ const Contact = () => {
     <section className="section bg-primary" id="contact">
       <div className="container mx-auto border-t-2 border-accent">
         <div className="flex flex-col items-center text-center">
-          <h2 className="section-title before:content-contact relative mt-2 before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
+          <h2 className="section-title before:content-contact relative mt-5 before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
             Contact me
           </h2>
-          <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
-          </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
           <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2">

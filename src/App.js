@@ -3,7 +3,7 @@ import React from 'react'
 import Header from './pages/header/header';
 import Hero from './pages/hero';
 import About from './pages/about';
-import Rates from './pages/rates';
+import Services from './pages/services';
 import Reviews from './pages/reviews/reviews';
 import Contact from './pages/contact';
 import Footer from './pages/footer';
@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <Hero />
       <About />
-      <Rates />
+      <Services />
       <Reviews />
       <Contact />
       <Footer />
