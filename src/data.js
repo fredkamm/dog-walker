@@ -1,7 +1,8 @@
 import { FiMail, FiMapPin } from "react-icons/fi";
 
-import { FaDog, FaPaw } from "react-icons/fa"
-import { GrNotes } from "react-icons/gr"
+import { GiSittingDog } from "react-icons/gi"
+import { IoPawOutline } from "react-icons/io5"
+import { TfiNotepad, TfiHome } from "react-icons/tfi"
 
 import Blank from "./assets/images/BlankProfile.png"
 
@@ -32,16 +33,20 @@ export const navigation = [
 // services
 export const services = [
   {
-    icon: <FaDog />,
+    icon: <GiSittingDog />,
     description: 'Specialize in dog walking and in-home pet sitting for cats and dogs while you’re away.',
   },
   {
-    icon: <FaPaw />,
-    description: 'Our time and attention are focused on your pet and all visits are tailored to yours and your pets needs.',
+    icon: <IoPawOutline />,
+    description: 'My time and attention are focused on your pet and all visits are tailored to yours and your pets needs.',
   },
   {
-    icon: <GrNotes />,
+    icon: <TfiNotepad />,
     description: 'A handwritten note is left after each visit with details of your pet and sitters time together.',
+  },
+  {
+    icon: <TfiHome />,
+    description: 'While pet sitting, I will keep a watchful eye on your home, bring in the newspapers and mail, and water the plants while you’re away!',
   },
 ];
 

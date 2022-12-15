@@ -17,14 +17,14 @@ const Services = () => {
               const { icon, description } = item;
               return (
                 <div
-                  className="flex flex-row border-dashed border-t-2 border-accent m-auto lg:flex-row gap-x-4 sm:flex-row"
+                  className="flex flex-row border-dashed border-t-2 border-accent m-auto pt-4 lg:flex-row gap-x-4 sm:flex-row"
                   key={index}
                 >
-                  <div className="text-paragraph rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl">
+                  <div className="text-accent rounded-sm w-14 h-14 flex items-start mt-2 lg:mb-0 text-2xl">
                     {icon}
                   </div>
                   <div>
-                    <p className="text-lg text-paragraph">{description}</p>
+                    <p className="text-xl text-paragraph lg:text-2xl">{description}</p>
                   </div>
                 </div>
               );
