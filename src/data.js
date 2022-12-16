@@ -50,42 +50,22 @@ export const services = [
   },
 ];
 
-// reviews
-export const reviews = [
+// gallery
+export const gallery = [
   {
     authorImg: Blank,
-    authorText:
-      "Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;",
-    authorName: "John Doe",
-    authorDog: "Labrador Retriever",
   },
   {
     authorImg: Blank,
-    authorText:
-      "Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;",
-    authorName: "Jane Doe",
-    authorDog: "Golden Retriever",
   },
   {
     authorImg: Blank,
-    authorText:
-      "Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;",
-    authorName: "Jack Doe",
-    authorDog: "Pitbull",
   },
   {
     authorImg: Blank,
-    authorText:
-      "Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;",
-    authorName: "Jack Doe",
-    authorDog: "Pitbull",
   },
   {
     authorImg: Blank,
-    authorText:
-      "Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;",
-    authorName: "Jack Doe",
-    authorDog: "Pitbull",
   },
 ];
 

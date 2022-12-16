@@ -4,7 +4,7 @@ import Header from './pages/header/header';
 import Hero from './pages/hero';
 import About from './pages/about';
 import Services from './pages/services';
-import Reviews from './pages/reviews/reviews';
+import Gallery from './pages/gallery/gallery';
 import Contact from './pages/contact';
 import Footer from './pages/footer';
 
@@ -15,7 +15,7 @@ const App = () => {
       <Hero />
       <About />
       <Services />
-      <Reviews />
+      <Gallery />
       <Contact />
       <Footer />
     </div>

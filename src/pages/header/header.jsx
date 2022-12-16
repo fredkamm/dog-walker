@@ -22,7 +22,7 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
         <a href='home'>
-          <h3 className="bg-secondary p-3 ml-5">Call now (555)555-5555</h3>
+          <h3 className="bg-secondary bg-opacity-80 p-3 ml-5">Call now (555)555-5555</h3>
         </a>
         {/* nav */}
         <div className="hidden md:block">
