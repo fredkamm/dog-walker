@@ -5,6 +5,11 @@ import { IoPawOutline } from "react-icons/io5"
 import { TfiNotepad, TfiHome } from "react-icons/tfi"
 
 import Blank from "./assets/images/BlankProfile.png"
+import Dog1 from "./assets/images/dog1.jpeg"
+import Dog2 from "./assets/images/dog2.jpeg"
+import Dog3 from "./assets/images/dog3.jpeg"
+import Dog4 from "./assets/images/dog4.jpeg"
+import Dog5 from "./assets/images/dog5.jpeg"
 
 // navigation
 export const navigation = [
@@ -53,19 +58,19 @@ export const services = [
 // gallery
 export const gallery = [
   {
-    authorImg: Blank,
+    authorImg: Dog1,
   },
   {
-    authorImg: Blank,
+    authorImg: Dog2,
   },
   {
-    authorImg: Blank,
+    authorImg: Dog3,
   },
   {
-    authorImg: Blank,
+    authorImg: Dog4,
   },
   {
-    authorImg: Blank,
+    authorImg: Dog5,
   },
 ];
 
