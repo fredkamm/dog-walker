@@ -32,7 +32,7 @@ const ReviewsSlider = () => {
           const { authorImg } = item;
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center max-w-[1400px] h-[780px] w-full m-auto pt-16 px-4 static">
+              <div className="flex flex-col items-center max-w-[1400px] max-h-[780px] w-full m-auto pt-16 px-4">
                 <img className="rounded-2xl" src={authorImg} alt="" />
               </div>
             </SwiperSlide>
