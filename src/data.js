@@ -4,7 +4,6 @@ import { GiSittingDog } from "react-icons/gi"
 import { IoPawOutline } from "react-icons/io5"
 import { TfiNotepad, TfiHome } from "react-icons/tfi"
 
-import Blank from "./assets/images/BlankProfile.png"
 import Dog1 from "./assets/images/dog1.jpeg"
 import Dog2 from "./assets/images/dog2.jpeg"
 import Dog3 from "./assets/images/dog3.jpeg"
